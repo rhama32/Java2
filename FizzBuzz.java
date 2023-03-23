@@ -5,11 +5,10 @@ public class FizzBuzz {
     int loopCount = 100;
     int numFizz = 3;
     int numBuzz = 5;
-    int strFizz = "Fizz";
-    String srtFizz = "Fizz";
+    String strFizz = "Fizz";
     String strBuzz = "Buzz";
 
-    for(i= 1; i <= loopCount; i++ ) {
+    for(i= 1; i <= loopCount; i++ ){
       
       if(i % (numFizz * numBuzz) == 0) {
           System.out.println(strFizz + strBuzz);
